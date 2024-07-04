@@ -1,5 +1,3 @@
-# Add the following code to the master branch: if heads win, the program prints the message You won, otherwise it prints the message You lost. Commit this revision with the message “Victory message added”.
-
 import random
 
 print("Who are you?")
@@ -21,7 +19,7 @@ for i in range(1, 4):
 print(f"Heads: {heads}, Tails: {tails}")
 
 if heads > tails:
-    print("You won")
+    print(f"{name} won")
 else:
-    print("You lost")
+    print(f"{name} lost")
     
