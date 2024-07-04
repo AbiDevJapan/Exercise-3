@@ -1,3 +1,5 @@
+# Add the following code to the master branch: if heads win, the program prints the message You won, otherwise it prints the message You lost. Commit this revision with the message “Victory message added”.
+
 import random
 
 print("Tossing a coin...")
@@ -13,3 +15,9 @@ for i in range(1, 4):
         tails += 1
         
 print(f"Heads: {heads}, Tails: {tails}")
+
+if heads > tails:
+    print("You won")
+else:
+    print("You lost")
+    
